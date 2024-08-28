@@ -6,3 +6,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.main {
+    background-color: #96DCFF;
+}
+
+.main_container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 64px 130px 102px;
+}

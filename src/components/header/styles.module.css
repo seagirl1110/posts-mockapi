@@ -1,0 +1,40 @@
+.header {
+    background-color: #3F5CC0;
+    color: #FFFFFF;
+}
+
+.header_container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 38px 130px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_item {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    color: #FFFFFF;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 9px 60px;
+    cursor: pointer;
+}
+
+.nav_item:last-child {
+    border: none;
+}
+
+.nav_item:hover {
+    color: #E0E0E0;
+}
